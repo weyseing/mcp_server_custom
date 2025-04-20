@@ -7,4 +7,4 @@
     - For Linux/macOS: `curl -LsSf https://astral.sh/uv/install.sh | sh`
     - For Windows (PowerShell): `iwr -useb https://astral.sh/uv/install.ps1 | iex`
 - Register MCP-server to MCP-client
-    > `uv run mcp install .\main.py`
+    > `uv run mcp install .\main.py` 
