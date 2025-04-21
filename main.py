@@ -40,6 +40,16 @@ def read_notes() -> str:
         content = f.read().strip()
     return content or "No notes yet."
 
+@mcp.tool()
+def get_note_filename() -> str:
+    """
+    Return the filename used for storing notes.
+
+    Returns:
+        str: The name of the note file.
+    """
+    return NOTES_FILE 
+
 @mcp.resource("notes://latest")
 def get_latest_note() -> str:
     """
